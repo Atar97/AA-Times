@@ -1,0 +1,28 @@
+.sections-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav a {
+  margin-right: 20px;
+  font-family: $sans-serif;
+  font-variant: small-caps;
+  font-size: 15px;
+}
+
+.sections-nav button {
+  background: none;
+  padding: 0px;
+  color: #000;
+  font-weight: normal;
+  border: none;
+  margin-right: 20px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.sections-nav button:hover {
+  background-color: $light-gray;
+}
