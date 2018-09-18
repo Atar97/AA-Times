@@ -1,0 +1,51 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+.left-column {
+  display: block;
+  width: 15%;
+  * {
+    padding: 0;
+  }
+  h3 {
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 18px;
+  }
+  h4 {
+    margin-top: 5px;
+    color: $gray;
+    line-height: 18px;
+  }
+  ul {
+    padding-left: 15px;
+    list-style: disc;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #comments {
+    font-family: $sans-serif;
+    color: $light-blue;
+  }
+}
+
+.middle-column {
+  display: block;
+  width: 45%;
+}
+
+.right-column {
+  display: block;
+  width: 30%;
+}

@@ -24,6 +24,7 @@ button {
 	text-transform: uppercase;
 	// font-size:
 	// text-align:
+  outline: none !important;
 }
 
 button:hover {
@@ -34,6 +35,10 @@ button:hover {
 a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 /*
